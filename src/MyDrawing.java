@@ -16,6 +16,7 @@ public class MyDrawing extends JPanel {
 	public void paintComponent(Graphics g) {
 		cat.draw(g, 200, 100);
 		cat.draw(g, 50,200);
+		cat.draw(g, 100, 20);
 	}
 	
 	/**
